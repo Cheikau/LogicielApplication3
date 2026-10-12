@@ -6,4 +6,9 @@ class Couleur {
 
   // Constructeur pour choisir les trois valeurs.
   Couleur(this.r, this.g, this.b);
+  
+  // Méthode qui affiche les informations de la couleur.
+  void afficherCouleur() {
+    print('(R :$r, V :$g, B :$b)');
+  }
 }
